@@ -1,0 +1,90 @@
+   34  cd git_practice
+   36  git status
+   38  git status
+   39  git add file_1.txt file_2.txt
+   40  git status
+   41  git commit -m "create new files"
+   42  git status
+   43  git log
+   44  git status
+   45  git add file_1.txt
+   46  git commit -m "made changes to file_1"
+   47  git status
+   48  git add file_2.txt
+   49  git status
+   50  git add file_1.txt
+   51  git status
+   52  git log
+   55  git commit -m "commit changes to files"
+   56  git add Readme.md
+   57  git commit -m "changes have been made"
+   58  git status
+   59  touch .gitignore
+   60  nano .gitignore
+   61  git add .gitignore
+   62  git commit -m "add gitignore"
+   63  git status
+   65  git status
+   66  git status
+   67  git branch features
+   68  git switch features
+   69  git log
+   71  git add new_features.txt
+   72  git commit -m "add empty file"
+   73  git commit -m "file change"
+   74  git switch main
+   75  git status
+   76  git add .
+   77  git commit -m "add changes"
+   78  git switch main
+   79  git add file_1.txt
+   80  git commit "save changes"
+   81  git commit -m "save changes"
+   82  git merge features
+   83  git commit -m "merge branches"
+   84  git log
+   85  git log
+   87  git log
+   88  git add new_features.txt
+   89  git commit -m "add changes"
+   90  git switch features
+   91  git add new_features.txt
+   92  git commit -m "save changes"
+   93  git switch main
+   94  git merge features
+   95  git add new_features.txt
+   96  git commit -m "merge file"
+   97  git merge features
+   98  git branch -d features
+   99  git remote add origin  git@github.com:bryce11m/git-practice-bryce11m.git
+  100  git push -u origin main
+  101  git remote -v
+  102  git remote rm git@github.com:bryce11m/git-practice-bryce11m.git
+  103  git remote rm
+  104  git remote remove origin
+  105  git remote -v
+  106  git remote add origin git@github.com:bryce11m/git-practice-bryce11m.git
+  107  git push -u origin main
+  115  cd git_practice/
+  116  git status
+  117  git push -u origin main
+  120  git clone git@github.com:bryce11m/git-practice-natelewis17.git
+  122  cd git-practice-natelewis17/
+  123  git switch feature-bryce11m
+  125  git add brycesfile
+  126  git commit -m "adding file for the hw"
+  127  git push origin feature-bryce11m
+  129  cd git-practice/
+  131  cd git-practice
+  132  cd git-practice-natelewis17/
+  135  cd git-practice
+  136  git pull
+  137  cd git-practice-natelewis17/
+  138  git pull
+  140  cd git-practice/
+  142  cd git_practice/
+  144  cd git_practice/
+  145  git pull
+  147  git log --oneline
+  148  git log --oneline > gitlog.txt
+  149  history | grep git > history.txt

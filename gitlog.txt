@@ -1,0 +1,14 @@
+122be8a Merge pull request #1 from natelewis17/feature-natelewis17
+079903c adding a file for the last part of the hw
+3ca24b0 merge file
+fad19f1 save changes
+475bca1 add changes
+65d9455 merge branches
+d8f27c5 save changes
+8d1a8f7 add changes
+dd65695 add empty file
+0592461 add gitignore
+83615b3 changes have been made
+1316850 commit changes to files
+ff9396c made changes to file_1
+86bbc1c create new files
